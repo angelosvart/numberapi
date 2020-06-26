@@ -19,6 +19,7 @@ async function getApi() {
 //Class to store and display numbers
 class NumberStore {
   constructor() {
+    //With this Set the numbers will be displayed only one time and wont be repeted
     this._numbers = new Set();
     this._counter = 0;
     this._container = document.querySelector('.numbers');
